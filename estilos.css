@@ -55,3 +55,14 @@
         font-size: 2rem;
         display: block;
     }
+
+@media screen and (max-device-width : 480px) {
+
+        #sidebar{
+	        display:none;
+	        }
+
+                #menu{
+               text-align:center;
+               }
+}
