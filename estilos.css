@@ -56,13 +56,11 @@
         display: block;
     }
 
-@media screen and (max-device-width : 320px) {
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape){
+       .entry, .entry-content
+       {
+ 	      font-size:1.2em;
+	      line-height:1.5em;
 
-        #sidebar{
-	        display:none;
-	        }
-
-                #menu{
-               text-align:center;
-               }
-}
+	}
+ }
