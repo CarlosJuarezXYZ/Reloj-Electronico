@@ -56,7 +56,7 @@
         display: block;
     }
 
-@media screen and (min-device-width : 200px) and (max-device-width : 300px) and (orientation : landscape){
+@media screen and (min-device-width : 100px) and (max-device-width : 200px) and (orientation : landscape){
        .entry, .entry-content
        {
  	      font-size:1.2em;
