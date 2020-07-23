@@ -49,7 +49,6 @@
     }
     .reloj .caja-segundos {
         display: inline-block;
-        backgroud :col-sm-12;
     }
     .reloj .segundos,
     .reloj .ampm  {
