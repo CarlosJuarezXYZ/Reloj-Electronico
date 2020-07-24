@@ -106,7 +106,7 @@
 
     body{
         background: url(universo.jpg) #000;
-        height: 1000px;
+        height: 100%;
         width : 100%;
         background-repeat:no-repeat;
         background-attachament:fixed;
