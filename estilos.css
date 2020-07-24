@@ -58,7 +58,7 @@
         display: block;
     }
 
-@media screen and (max-width : 400px){
+@media screen and (max-width : 800px){
     .wrop{
         width:90%;
         max-width :100%;
