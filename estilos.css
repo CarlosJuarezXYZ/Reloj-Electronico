@@ -32,6 +32,7 @@
     .fecha{
         font-family : Oswald, Arial;
         text-align: center;
+        color : blue;
         font-size: 1.5em;
         margin-bottom: 0.3125rem;
         background: rgba(0,0,0,.5);
@@ -42,6 +43,7 @@
     .reloj {
         font-family: Oswald, Arial;
         width:100%;
+        color : blue;
         padding: 20px;
         font-size: 4em;
         text-align: center;
@@ -56,3 +58,57 @@
         display: block;
     }
 
+@media screen and (max-width : 800px){
+    .wrop{
+        width:90%;
+        max-width :100%;
+        margin:auto; 
+    }  
+
+    .widget{
+        width: 50%;
+        margin : 2em;
+    }
+
+    .widget p {
+        display:inline-block;
+        line-height: 0.5em;
+    }
+
+    .fecha{
+        font-family : Oswald, Arial;
+        text-align: center;
+        font-size: 0.8em;
+        color: blue;
+        margin-bottom: 0.3125rem;
+        background: rgba(0,0,0,.5);
+        padding : 20px;
+        width:100%;
+    }
+
+    .reloj {
+        font-family: Oswald, Arial;
+        width:100%;
+        color: blue;
+        padding: 20px;
+        font-size: 2em;
+        text-align: center;
+        background: rgba(0,0,0,.5);
+    }
+    .reloj .caja-segundos {
+        display: inline-block;
+    }
+    .reloj .segundos,
+    .reloj .ampm  {
+        font-size: 1rem;
+        display: block;
+    }
+
+    body{
+        background: url(universo.jpg) #000;
+        background-size: cover;
+        color :blue;
+        font-size: 20px;
+    }
+
+} 
